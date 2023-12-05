@@ -56,7 +56,7 @@ nav ul li a {
     color: seashell;
 }
 
-h1, h2, h3, h4, p{
+h1, h2, h3, h4, h5, p{
     color: seashell;
     font-family: helvetica;
 }
@@ -92,4 +92,68 @@ h1, h2, h3, h4, p{
     margin: 10px;
     color: seashell;
     background-color: none;
+}
+
+.location {
+    display: flex;
+    background-position: center;
+    background-image: url('../resources/images/img-locations-background.jpg');
+    background-repeat: no-repeat;
+    height: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 15px;
+    overflow: hidden;
+}
+
+.location h2 {
+    color: seashell;
+    background-color: transparent;
+}
+
+
+.address {
+    display: inline-flex;
+    width: 300px;
+    background-color: black;
+    opacity: 1;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 0 20px;
+}
+
+
+.addressLine{
+    width: 300px;
+    text-align: center;
+}
+
+.locationContainer{
+    background-color: transparent;
+}
+
+.addressContainer{
+    background-color: transparent;
+}
+
+.footer {
+    display: flex;
+    height: 200px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contactInfo {
+    text-align: center;
+    background-color: transparent;
+}
+
+.copyright {
+    display: flex;
+    position: relative;
+    left: 20px;
+    text-align: left;
 }
